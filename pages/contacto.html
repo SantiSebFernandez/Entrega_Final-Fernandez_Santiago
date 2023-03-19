@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santiago Fernández</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <!-- tipografias -->
+
+    <!-- rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- logo que va al home. Es el mismo para volver desde las otras paginas -->
+    <a href="../index.html"
+      ><img class="logoHome" src="../img/logo_home.png" alt="logo rayito" />
+    </a>
+
+    <!-- barra de navegacion de la pagina CONTACTO -->
+    <nav class="navBar">
+      <span>
+        <a href="trabajos.html">Trabajos</a>
+      </span>
+
+      <span>
+        <a href="bio.html">Bio</a>
+      </span>
+
+      <span>
+        <a href="clientes.html">Clientes</a>
+      </span>
+
+      <span>
+        <b>
+          <a href="contacto.html">Contacto</a>
+        </b>
+      </span>
+    </nav>
+    <br />
+
+    <!-- informacion de contacto -->
+    <section>
+      <a href=""
+        ><img src="../img/img_home_mail.png" style="scale: 10%" alt="logo mail"
+      /></a>
+      <span>soysantiagofernandez@gmail.com</span>
+      <br />
+      <a href="https://www.linkedin.com/in/santiago-fernández-19b98869/"
+        ><img style="scale: 10%" src="../img/logo_in.png" alt=""
+      /></a>
+      <a href="https://www.instagram.com/rayito.rayito.rayito/"
+        ><img style="scale: 10%" src="../img/logo_ig.png" alt=""
+      /></a>
+    </section>
+    <br />
+
+    <form action="submit">
+      <div>
+        <!-- input 1 -->
+        <label for="name">Ingresa tu nombre</label><br />
+        <input name="name" type="text" /><br />
+
+        <!-- input 2 -->
+        <label for="name1">edad</label><br />
+        <input name="name1" type="number" /><br />
+
+        <!-- input 3 -->
+        <label for="name2">contraseña</label><br />
+        <input name="name2" type="password" /><br />
+      </div>
+
+      <!-- select -->
+      <div>
+        <label for="country">selecciona tu pais</label><br />
+        <select name="country" id="">
+          selecciona tu pais
+          <option value="">opcion1</option>
+          <option value="">opcion2</option>
+          <option value="">opcion3</option></select
+        ><br />
+      </div>
+
+      <!-- text area -->
+      <div>
+        <label for="comment">escribe tu consulta</label><br />
+        <textarea name="comment" id="" cols="10" rows="5"></textarea><br />
+      </div>
+      <!-- buttons -->
+      <div>
+        <input type="reset" value="borrar" />
+        <input type="button" value="enviar" />
+      </div>
+    </form>
+  </body>
+</html>
