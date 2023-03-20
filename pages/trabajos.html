@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Santiago Fernández</title>
     <link rel="shortcut icon" href="../img/favicon.ico" />
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
 
     <!-- tipografias -->
 
@@ -32,35 +32,89 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
+
+    <!-- css bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
-    <!-- logo que va al home. Es el mismo para volver desde las otras paginas -->
-    <a href="../index.html"
-      ><img class="logoHome" src="../img/logo_home.png" alt="logo rayito" />
-    </a>
-
-    <!-- barra de navegacion de la pagina TRABAJOS -->
-    <nav class="navBar">
-      <span>
-        <a href="trabajos.html">Trabajos</a>
-      </span>
-      <span>
-        <a href="bio.html">Bio</a>
-      </span>
-      <span>
-        <a href="clientes.html">Clientes</a>
-      </span>
-      <span>
-        <a href="contacto.html">Contacto</a>
-      </span>
+    <!-- NavBar de bootstrap modificada -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          >Logo home png pero me agranda toda la barra</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+          <div class="row float-end">
+            <div class="row">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Trabajos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="bio.html">Bio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Making_Off.html">MakingOff</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <br />
+    <!-- carrousel bootstrap -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/pag_trabajos/pagina_trabajos_flow.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/pag_trabajos/pagina_trabajos_g7.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/pag_trabajos/pagina_trabajos_shell.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
 
     <!-- Aca van fotos con links para ver cada trabajo -->
-    <section class="portadas">
-      <span>
+    <!-- <div class="portadas">
+      <div>
         <a href=""
           ><img
             src="../img/pag_trabajos/pagina_trabajos_shell.jpg"
@@ -76,7 +130,15 @@
             src="../img/pag_trabajos/pagina_trabajos_g7.jpg"
             alt="portada g7"
         /></a>
-      </span>
-    </section>
+      </div>
+    </div> -->
+
+    
+    <!-- js bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,4 +1,17 @@
-h1{
-    color: aqua;
-    
+/*
+.textoIntro {
+  text-align: center;
+}*/
+
+.sobre {
+  scale: 10%;
 }
+
+.logoRayito {
+  scale: 20%;
+}
+
+.footer {
+  scale: 40%;
+}
+
