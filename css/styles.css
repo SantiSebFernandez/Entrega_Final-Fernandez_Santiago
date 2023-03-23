@@ -1,7 +1,3 @@
-/*
-.textoIntro {
-  text-align: center;
-}*/
 
 .sobre {
   scale: 10%;
@@ -15,3 +11,14 @@
   scale: 40%;
 }
 
+.nav-item{
+  margin:0 40px;
+}
+
+.navbar{
+  background: transparent;
+}
+
+.iconMail{
+  scale: 20%;
+}
