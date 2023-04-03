@@ -1,26 +1,75 @@
-.portada{
-  font-family: 'Rubik', sans-serif;
-  &__iconMail{
-    scale: 20%;
+// base
+@import "./base/reset.scss";
+@import "./base/typo.scss";
+
+// variables / tipografias
+@import "./utilities/variables.scss";
+
+// views
+@import "./views/trabajos";
+@import "./views/bio";
+@import "./views/sketching";
+@import "./views/contacto";
+
+//Logo Home NavBar
+.navbar-brand {
+  img {
+    margin: 0px;
+    width: 40px;
+    height: auto;
+  }
+}
+
+.navbar-collapse {
+  a {
+    font-family: $font-principal;
+    color: black;
+    margin: 0 30px;
+    letter-spacing: 5px;
+
+    &:hover {
+      scale: 105%;
+    }
   }
 }
 
 
-
-.nav-item{
-  margin:0 40px;
+.portada {
+  font-family: $font-principal;
+  
+  &__bloqueTexto {
+  padding: 100px 10px 0 10px;
 }
 
+  &__h1 {
+    font-weight: 800;
+  }
 
+  &__iconMail {
+    scale: 20%;
+  }
+}
 
-div{
-  width: 300px;
-  height: 300px;
-  background-color: aqua;
-  h1 {
-    padding: 10px;
-    font-family: 'Rubik', sans-serif;
-    text-decoration: line-through;
+.portada__iconMail:hover {
+  scale: 25%;
+}
+
+.footer {
+  a {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  &__mail img {
+    scale: $contact-scale;
+  }
+
+  &__in img {
+    scale: $contact-scale;
+  }
+
+  &__ig img {
+    scale: $contact-scale;
   }
 }
 

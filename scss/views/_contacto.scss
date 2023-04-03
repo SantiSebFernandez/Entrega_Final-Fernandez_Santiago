@@ -1,0 +1,9 @@
+.contacto{
+    font-family: $font-principal;
+    h5{
+        font-weight: 800;
+    }
+    .card-link img{
+        scale: $contact-scale;
+    }
+}

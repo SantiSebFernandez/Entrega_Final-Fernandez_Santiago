@@ -1,16 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap);
+div .col-lg-4.col-xl-4 {
+  padding: 0; }
+
+div .quilmes {
+  width: 100vw;
+  height: auto; }
+
+.tipoBio {
+  font-family: "Rubik", sans-serif; }
+  .tipoBio .text-center {
+    padding: 40px;
+    margin: 10px; }
+
+.contacto {
+  font-family: "Rubik", sans-serif; }
+  .contacto h5 {
+    font-weight: 800; }
+  .contacto .card-link img {
+    scale: 20%; }
+
+.navbar-brand img {
+  margin: 0px;
+  width: 40px;
+  height: auto; }
+
+.navbar-collapse a {
+  font-family: "Rubik", sans-serif;
+  color: black;
+  margin: 0 30px;
+  letter-spacing: 5px; }
+  .navbar-collapse a:hover {
+    scale: 105%; }
+
 .portada {
-  font-family: 'Rubik', sans-serif; }
+  font-family: "Rubik", sans-serif; }
+  .portada__bloqueTexto {
+    padding: 100px 10px 0 10px; }
+  .portada__h1 {
+    font-weight: 800; }
   .portada__iconMail {
     scale: 20%; }
 
-.nav-item {
-  margin: 0 40px; }
+.portada__iconMail:hover {
+  scale: 25%; }
 
-div {
-  width: 300px;
-  height: 300px;
-  background-color: aqua; }
-  div h1 {
-    padding: 10px;
-    font-family: 'Rubik', sans-serif;
-    text-decoration: line-through; }
+.footer a {
+  margin: 0px;
+  padding: 0px; }
+
+.footer__mail img {
+  scale: 20%; }
+
+.footer__in img {
+  scale: 20%; }
+
+.footer__ig img {
+  scale: 20%; }
