@@ -1,9 +1,46 @@
-.contacto{
+
+//Texto contacto
+.contacto {
     font-family: $font-principal;
-    h5{
+    
+    p{
+        margin: 0;
+      }
+    
+      &__texto {
+        padding: 100px 10px 100px 10px;
+      }
+    
+    h1 {
         font-weight: 800;
     }
-    .card-link img{
-        scale: $contact-scale;
+
+}
+
+// formulario y botones
+.formulario{
+    font-family: $font-principal;
+
+    .botones{
+        margin: 0px 0px 350px 0px;
+
+        .btnUno{
+            margin: 0px 5px 0px 5px;
+        }
+        .btnDos{
+            margin: 0px 5px 0px 5px;
+        }
     }
+
+}
+
+//hover botones
+    .btnUno:hover{
+    transform: scale(1.05);
+    transition: all .15s ease-in;
+}
+
+    .btnDos:hover{
+    transform: scale(1.05);
+    transition: all .15s ease-in;
 }

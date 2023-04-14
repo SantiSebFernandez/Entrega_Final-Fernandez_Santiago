@@ -1,10 +1,23 @@
 @import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap);
 div .col-lg-4.col-xl-4 {
-  padding: 0; }
+  padding: 0;
+  transition: all .1s ease-out;
+  transform-origin: center center; }
 
 div .quilmes {
   width: 100vw;
-  height: auto; }
+  height: auto;
+  transition: all .1s ease-out; }
+
+.container__trabajos div:hover {
+  transform: scale(1.015);
+  transition: all .1s ease-in; }
+
+.fotoBio {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: contain; }
 
 .tipoBio {
   font-family: "Rubik", sans-serif; }
@@ -12,12 +25,39 @@ div .quilmes {
     padding: 40px;
     margin: 10px; }
 
+.container .img-fluid .sketch {
+  margin: 0;
+  padding: 0;
+  object-fit: contain; }
+
 .contacto {
   font-family: "Rubik", sans-serif; }
-  .contacto h5 {
+  .contacto p {
+    margin: 0; }
+  .contacto__texto {
+    padding: 100px 10px 100px 10px; }
+  .contacto h1 {
     font-weight: 800; }
-  .contacto .card-link img {
-    scale: 20%; }
+
+.formulario {
+  font-family: "Rubik", sans-serif; }
+  .formulario .botones {
+    margin: 0px 0px 350px 0px; }
+    .formulario .botones .btnUno {
+      margin: 0px 5px 0px 5px; }
+    .formulario .botones .btnDos {
+      margin: 0px 5px 0px 5px; }
+
+.btnUno:hover {
+  transform: scale(1.05);
+  transition: all .15s ease-in; }
+
+.btnDos:hover {
+  transform: scale(1.05);
+  transition: all .15s ease-in; }
+
+.navbar-expand-lg.bg-body-tertiary {
+  background-color: transparent !important; }
 
 .navbar-brand img {
   margin: 0px;
@@ -34,25 +74,37 @@ div .quilmes {
 
 .portada {
   font-family: "Rubik", sans-serif; }
+  .portada p {
+    margin: 0; }
   .portada__bloqueTexto {
     padding: 100px 10px 0 10px; }
   .portada__h1 {
     font-weight: 800; }
   .portada__iconMail {
-    scale: 20%; }
+    margin: 0px 0px 100px 0px;
+    scale: 40%;
+    transition: all .4s ease-out;
+    transform-origin: center center; }
 
 .portada__iconMail:hover {
-  scale: 25%; }
+  transform: scale(1.25);
+  transition: all .15s ease-in; }
+
+.gifPortada {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: contain; }
 
 .footer a {
   margin: 0px;
   padding: 0px; }
 
 .footer__mail img {
-  scale: 20%; }
+  scale: 25%; }
 
 .footer__in img {
-  scale: 20%; }
+  scale: 25%; }
 
 .footer__ig img {
-  scale: 20%; }
+  scale: 25%; }
