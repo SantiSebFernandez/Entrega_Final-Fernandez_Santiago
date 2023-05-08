@@ -28,9 +28,9 @@ div .quilmes {
     padding: 40px 50px 100px 50px;
     margin: 10px; }
 
-.container .img-fluid .sketch {
-  margin: 0;
-  padding: 0;
+.sketch {
+  scale: 95%;
+  padding: 10px 0px 0px 0px;
   object-fit: contain; }
 
 .contacto {
