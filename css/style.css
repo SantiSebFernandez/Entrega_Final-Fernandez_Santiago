@@ -13,16 +13,19 @@ div .quilmes {
   transform: scale(1.015);
   transition: all .1s ease-in; }
 
+.primerFila {
+  padding: 60px 0px 0px 0px; }
+
 .fotoBio {
   margin: 0;
-  padding: 0;
+  padding: 60px 0px 0px 0px;
   width: 100%;
   object-fit: contain; }
 
 .tipoBio {
   font-family: "Rubik", sans-serif; }
   .tipoBio .text-center {
-    padding: 40px;
+    padding: 40px 50px 100px 50px;
     margin: 10px; }
 
 .container .img-fluid .sketch {
@@ -35,18 +38,9 @@ div .quilmes {
   .contacto p {
     margin: 0; }
   .contacto__texto {
-    padding: 100px 10px 100px 10px; }
+    padding: 400px 10px 360px 10px; }
   .contacto h1 {
     font-weight: 800; }
-
-.formulario {
-  font-family: "Rubik", sans-serif; }
-  .formulario .botones {
-    margin: 0px 0px 350px 0px; }
-    .formulario .botones .btnUno {
-      margin: 0px 5px 0px 5px; }
-    .formulario .botones .btnDos {
-      margin: 0px 5px 0px 5px; }
 
 .btnUno:hover {
   transform: scale(1.05);
@@ -57,7 +51,7 @@ div .quilmes {
   transition: all .15s ease-in; }
 
 .navbar-expand-lg.bg-body-tertiary {
-  background-color: transparent !important; }
+  background-color: white !important; }
 
 .navbar-brand img {
   margin: 0px;
@@ -77,7 +71,7 @@ div .quilmes {
   .portada p {
     margin: 0; }
   .portada__bloqueTexto {
-    padding: 100px 10px 0 10px; }
+    padding: 190px 10px 0 10px; }
   .portada__h1 {
     font-weight: 800; }
   .portada__iconMail {
